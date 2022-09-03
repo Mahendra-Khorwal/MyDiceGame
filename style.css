@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(to right, #3f5e, red);
+}
+#container {
+  /* border: 5px dashed darkblue;     */
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+#status {
+  margin: 20px;
+  font-size: 3rem;
+  color: darkblue;
+}
+#hd {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+/* #score {
+    font-weight: bold;
+    font-size: 40px;
+  } */
+.dice {
+  margin: 0px 50px;
+  text-align: center;
+  display: inline-block;
+}
+p {
+  font-size: 30px;
+  font-weight: bold;
+  color: darkblue;
+}
+img {
+  width: 220px;
+}
+#btn {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 10px;
+  height: 50px;
+  background-color: black;
+  color: yellow;
+  border-radius: 10px;
+  border: 0px;
+  font-size: 18px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: red;
+}
